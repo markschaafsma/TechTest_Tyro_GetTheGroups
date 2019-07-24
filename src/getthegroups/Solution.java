@@ -150,7 +150,7 @@ class Result {
 					if (studentSet.contains(students1.get(q))) {
 						studentSet.add(students2.get(q));
 						addToIndex = i;
-//     	       			System.out.println("addToIndex: " + addToIndex);
+//						System.out.println("addToIndex: " + addToIndex);
 					}
 					System.out.println("StudentGroup " +i+ ": " + studentGroups.get(i));
 				}
@@ -162,7 +162,7 @@ class Result {
 					if (studentSet.contains(students2.get(q))
 					 && !studentSet.contains(students1.get(q))) {
 						removeFromIndex = i;
-//    	       			System.out.println("removeFromIndex: " + removeFromIndex);
+//						System.out.println("removeFromIndex: " + removeFromIndex);
 					}
 				}
 
@@ -207,7 +207,7 @@ class Result {
 				for (int j = 0; j < studentGroups.size(); j++) {
 					System.out.println("StudentGroup " +j+ ": " + studentGroups.get(j));
        				
-//       	       	List<ArrayList> studentSet = studentGroups.get(j);
+//					List<ArrayList> studentSet = studentGroups.get(j);
 					ArrayList<Integer> studentSet = studentGroups.get(j);
        	       		
 					if (studentSet.contains(students1.get(q))) {
@@ -239,7 +239,7 @@ public class Solution {
 	public static void main(String[] args) throws IOException {
 		
 		BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-//      BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
+//		BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
 		BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("result.txt"));
 
 		int n = Integer.parseInt(bufferedReader.readLine().trim());
