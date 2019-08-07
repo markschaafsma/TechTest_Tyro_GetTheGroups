@@ -1,5 +1,9 @@
 # TechTest_Tyro_GetTheGroups
-Technical Test - Tyro - Get the Groups - Java SE 8
+
+### Overview
+
+This repository contains my Java SE 8 solution to a Technical Test, "Get the Groups", which I
+did for Tyro Payments in December 2018.
 
 ### Problem
  
@@ -72,11 +76,11 @@ Input from stdin will be processed as follows and passed to the function.
       2            - then number of queries
       2            - student2[1] 
       3            - student2[2]    
- 
+
 ### Sample Output 
  
       3
-   
+     
 ### Explanation
  
       There are n = 3 students labelled with IDs {1,2,3}.
